@@ -7,20 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="checkout">
-        <h1>Checkout da Compra</h1>
-        <forms id="formu">
-        <label>preço do produto (R$)</label>
-        <input type="number" id="preco">
-        <label>Valor do frete (R$)</label>
-        <input type="number" id="frete">
+    <div id="card">
+        <div id="flexDiv">
+            <div><h1>Checkout da Compra</h1></div>
+            <forms id="formu">
+            <label>preço do produto (R$)</label>
+            <input type="number" id="preco">
+            <label>Valor do frete (R$)</label>
+            <input type="number" id="frete">
 
-        <label>Forma de Pagamento:</label> 
-        
+            <label>Forma de Pagamento:</label> 
+        </div>
+        <div class="GridDiv">
         <input type="submit" id="pix" value="Pix (-10%)">
         <input type="submit" id="dinheiro" value="Dinheiro (=5%)">
         <input type="submit" id="cartao" value="Cartão à vista">
         <input type="submit" id="parcelado" value="Parcelado (+5%)">
+        </div>
         
         </forms>
         <div id="divTotal">
