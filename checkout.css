@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-content: center;
+}
+
+#checkout{
+    display: flex;
+    width: 30vw;
+    height: 80vh;
+    border-color: solid red 5px;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+#formu{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+input{
+    border-radius: 5px;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 3%;
+}
+
