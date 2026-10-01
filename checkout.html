@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="checkout.css">
     <title>Document</title>
+    <script src="checkout.js"></script>
 </head>
 <body>
     <div id="card">
@@ -19,10 +20,10 @@
             <label>Forma de Pagamento:</label> 
         </div>
         <div class="GridDiv">
-        <input type="submit" id="pix" value="Pix (-10%)">
-        <input type="submit" id="dinheiro" value="Dinheiro (=5%)">
-        <input type="submit" id="cartao" value="Cartão à vista">
-        <input type="submit" id="parcelado" value="Parcelado (+5%)">
+        <input type="submit" id="pix" value="Pix (-10%)" onclick="pix(document.getElementById('preco').value, document.getElementById('frete').value)">
+        <input type="submit" id="dinheiro" value="Dinheiro (=5%)" onclick="dinheiro(document.getElementById('preco').value, document.getElementById('frete').value)">
+        <input type="submit" id="cartao" value="Cartão à vista" onclick="cardVista(document.getElementById('preco').value, document.getElementById('frete').value)">
+        <input type="submit" id="parcelado" value="Parcelado (+5%)" onclick="cardParcelado(document.getElementById('preco').value, document.getElementById('frete').value)">
         </div>
         
         </forms>
