@@ -11,7 +11,21 @@
 input{
     display: flex;
     flex-direction: column;
+    border-radius: 1px;
+    margin: auto;
+    background-color: rgb(228, 248, 140);
+    height: 30%;
+    width: 30%;
+    margin-bottom: 1%;
+}
 
+input:hover{
+    background-color: aliceblue;
+}
+label{
+    margin: auto;
+    display: flex;
+    justify-self: center;
 }
 
 /*#flexDiv{
